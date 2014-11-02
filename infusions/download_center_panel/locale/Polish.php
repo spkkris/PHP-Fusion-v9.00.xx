@@ -1,10 +1,10 @@
 <?php
 $locale['title'] = 'Download Center Panel';
-$locale['desc'] = 'Download CenterPanel z Zarz±dzaniem';
+$locale['desc'] = 'Download Center Panel z Zarz±dzaniem';
 $locale['ok'] = 'Ustawienia zosta³y zapisane.';
 $locale['blad'] = 'Ustawienia nie zosta³y zapisane.';
 $locale['blad1'] = 'Ustawienia nie zosta³y zapisane. B³±d wewnêtrzny';
-$locale['admin'] = 'Download Center - Zarz±dzanie';
+$locale['admin'] = 'Download Center Panel - Zarz±dzanie';
 $locale['wlacz'] = 'W³±cz';
 $locale['wylacz'] = 'Wy³±cz';
 $locale['zapisz'] = 'Zapisz';

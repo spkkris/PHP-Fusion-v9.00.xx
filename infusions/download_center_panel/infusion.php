@@ -29,7 +29,7 @@ include INFUSIONS."download_center_panel/infusion_db.php";
 // Infusion general information
 $inf_title = $locale['title'];
 $inf_description = $locale['desc'];
-$inf_version = "2.01";
+$inf_version = "3.00";
 $inf_developer = "krystian1988";
 $inf_email = "admin@krismods-fusion.pl";
 $inf_weburl = "http://www.krismods-fusion.pl";

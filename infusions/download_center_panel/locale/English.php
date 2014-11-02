@@ -1,10 +1,10 @@
 <?php
 $locale['title'] = 'Download Center Panel';
-$locale['desc'] = 'Download CenterPanel z Zarządzaniem';
+$locale['desc'] = 'Download Center Panel z Zarządzaniem';
 $locale['ok'] = 'Ustawienia zostały zapisane.';
 $locale['blad'] = 'Ustawienia nie zostały zapisane.';
 $locale['blad1'] = 'Ustawienia nie zostały zapisane. Błąd wewnętrzny';
-$locale['admin'] = 'Download Center - Zarządzanie';
+$locale['admin'] = 'Download Center Panel - Zarządzanie';
 $locale['wlacz'] = 'Włącz';
 $locale['wylacz'] = 'Wyłącz';
 $locale['zapisz'] = 'Zapisz';

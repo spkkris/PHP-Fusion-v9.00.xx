@@ -41,7 +41,7 @@ div.valid a {color:#6da827;}</style>");
 opentable($locale['ver_000']);
 echo "<div align='center'>";
 if(ini_get('allow_url_fopen') != false){ 
-	if ($df_ddi_version = file_get_contents("http://www.krismods-fusion.pl/updates/download_center_panel.txt")) {
+	if ($df_ddi_version = file_get_contents("http://www.krismods-fusion.pl/updates/v9_download_center_panel.txt")) {
 		if (preg_match("/^[0-9a-z\.]+$/", $df_ddi_version)) {
 		    $in_version = dbarray(dbquery("SELECT inf_version FROM ".DB_INFUSIONS." WHERE inf_folder = 'download_center_panel'"));	
             $inf_version = $in_version['inf_version'];
@@ -49,7 +49,7 @@ if(ini_get('allow_url_fopen') != false){
 			echo "<div class='info'>".$locale['ver_001']."</div>
 			".$locale['ver_002'].$inf_version."<br />
 			".$locale['ver_003'].$df_ddi_version."<br />
-			".$locale['ver_004']."";
+			".$locale['ver_004'];
 		} else {
 			echo "<div class='valid'>".$locale['ver_005']."</div>
 			".$locale['ver_006'].$inf_version."<br />
